@@ -1,9 +1,5 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=44&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=GNANASEKARAN+V" alt="GNANASEKARAN V" />
-
-<br/>
-
 [![Gmail](https://img.shields.io/badge/-v.gnanasekaran007%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=2563EB&labelColor=0d1117)](mailto:v.gnanasekaran007@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=2563EB&labelColor=0d1117)](https://linkedin.com/in/gnanasekaran-v-)
 [![GitHub](https://img.shields.io/badge/-vgnanasekaran007--hub-0d1117?style=for-the-badge&logo=github&logoColor=2563EB&labelColor=0d1117)](https://github.com/vgnanasekaran007-hub)
@@ -116,12 +112,7 @@ profile:
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=vgnanasekaran007-hub&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=2563eb&icon_color=2563eb&text_color=c9d1d9" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=vgnanasekaran007-hub&hide_border=true&theme=tokyonight&background=0d1117&ring=2563eb&fire=2563eb&currStreakLabel=2563eb" />
-
 <br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vgnanasekaran007-hub&layout=compact&hide_border=true&theme=tokyonight&bg_color=0d1117&title_color=2563eb&text_color=c9d1d9" />
 
 </div>
 
@@ -131,8 +122,6 @@ profile:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=vgnanasekaran007-hub&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" />
-
 </div>
 
 <br/>
@@ -140,8 +129,6 @@ profile:
 ## 📈 Contribution Graph
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vgnanasekaran007-hub&theme=tokyo-night&bg_color=0d1117&color=2563eb&line=2563eb&point=ffffff&hide_border=true" width="100%"/>
 
 </div>
 
@@ -185,8 +172,6 @@ profile:
 ## 🐍 Contribution Snake
 
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/vgnanasekaran007-hub/vgnanasekaran007-hub/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
 <sub>Generated via the <a href="https://github.com/Platane/snk">Platane/snk</a> GitHub Action — add the workflow to your profile repo to activate it.</sub>
 
