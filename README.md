@@ -147,24 +147,6 @@ profile:
 
 </div>
 
-<br/>
-
-## 🚀 Featured Project
-
-<div align="center">
-
-### 🗑️ Smart Dustbin — IIC Hackathon Project
-
-*An automation-focused waste management system built for a hackathon challenge.*
-
-</div>
-
-- Developed a **Smart Dustbin system** to improve waste management through automation and real-time monitoring
-- Focused on **enhancing cleanliness** and **reducing manual intervention** using smart technology concepts
-- Applied core problem-solving and system-design thinking to a real-world civic issue
-
-<br/>
-
 ## 🎓 Certifications
 
 <table width="100%">
