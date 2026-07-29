@@ -2,8 +2,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=44&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=GNANASEKARAN+V" alt="GNANASEKARAN V" />
 
-<img src="https://capsule-render.vercel.app/api?type=transparent&color=2563eb&height=100&section=header&text=Aspiring%20Cloud%20%26%20DevOps%20Engineer&fontSize=20&fontColor=2563eb&fontAlignY=45&animation=fadeIn&desc=Cloud%20Computing%20%7C%20DevOps%20%7C%20Automation%20%7C%20Linux%20%7C%20Networking&descSize=13&descColor=8ab4f8&descAlignY=68&animation=fadeIn" width="100%"/>
-
 <br/>
 
 [![Gmail](https://img.shields.io/badge/-v.gnanasekaran007%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=2563EB&labelColor=0d1117)](mailto:v.gnanasekaran007@gmail.com)
