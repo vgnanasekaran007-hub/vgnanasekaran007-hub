@@ -33,7 +33,6 @@ profile:
 - 🐧 Familiar with **Linux, networking fundamentals, cloud technologies**, and **version control systems**
 - 🚀 Eager to gain hands-on industry experience and contribute to **real-world projects**
 - 🎯 Building a successful career in **Cloud Computing and DevOps**
-- 💬 Ask me about Python, Linux basics, or Cloud Computing fundamentals
 
 <br/>
 
