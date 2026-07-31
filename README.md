@@ -18,7 +18,6 @@
 
 ## 🧭 About Me
 
-
 - 🔭 Working on **Cloud & DevOps Projects**
 - 🌱 Learning **AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions**
 - ☁️ Interested in **Cloud Computing, DevOps, and DevSecOps**
@@ -68,6 +67,7 @@
 </div>
 
 <br/>
+##
 
 
 <p align="center">
