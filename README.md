@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=44&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=GNANASEKARAN+V" alt="GNANASEKARAN V" />
+<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=45&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=Gnanasekaran+V" alt="GNANASEKARAN V" />
 
 
 <br/>
@@ -18,21 +18,14 @@
 
 ## 🧭 About Me
 
-```yaml
-profile:
-  name: "Gnanasekaran V"
-  role: "Aspiring Cloud & DevOps Engineer"
-  location: "Kanchipuram, Tamil Nadu, India"
-  education: "B.E. Computer Science & Engineering @ APEC (2024 - Present)"
-  languages: ["English", "Tamil (Native)"]
-  currently_learning: ["Cloud Computing", "DevOps Practices", "Linux Administration"]
-  interests: ["Automation", "Cloud Infrastructure", "Version Control", "Networking"]
-```
 
-- 🌱 Strong interest in **cloud computing, automation, and modern deployment practices**
-- 🐧 Familiar with **Linux, networking fundamentals, cloud technologies**, and **version control systems**
-- 🚀 Eager to gain hands-on industry experience and contribute to **real-world projects**
-- 🎯 Building a successful career in **Cloud Computing and DevOps**
+- 🔭 Working on **Cloud & DevOps Projects**
+- 🌱 Learning **AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions**
+- ☁️ Interested in **Cloud Computing, DevOps, and DevSecOps**
+- 🔐 Exploring **Cloud Security** and Infrastructure Automation
+- 💻 Passionate about **Linux**, **CI/CD**, and Open Source
+- 🎯 Goal: **Become a Professional Cloud & DevOps Engineer**
+- ⚡ Fun Fact: I enjoy automating repetitive tasks and building scalable solutions.
 
 <br/>
 
@@ -76,38 +69,11 @@ profile:
 
 <br/>
 
-## 📌 Skill Proficiency
 
-<div align="center">
+<p align="center">
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=gnanasekaran-v&theme=radical&fire=FF6B00&ring=FF4500&currStreakLabel=FF8C00"/>
 
-**Cloud Computing**
-![](https://img.shields.io/badge/Progress-70%25-2563eb?style=flat-square&logo=googlecloud&logoColor=white)
-
-**Linux**
-![](https://img.shields.io/badge/Progress-65%25-2563eb?style=flat-square&logo=linux&logoColor=white)
-
-**Python**
-![](https://img.shields.io/badge/Progress-60%25-2563eb?style=flat-square&logo=python&logoColor=white)
-
-**Java**
-![](https://img.shields.io/badge/Progress-50%25-2563eb?style=flat-square&logo=openjdk&logoColor=white)
-
-**Networking Fundamentals**
-![](https://img.shields.io/badge/Progress-55%25-2563eb?style=flat-square&logo=cisco&logoColor=white)
-
-**Version Control (Git/GitHub)**
-![](https://img.shields.io/badge/Progress-65%25-2563eb?style=flat-square&logo=git&logoColor=white)
-
-</div>
-
-
-
-
-## 📈 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=vgnanasekaran007-hub&theme=tokyo-night&bg_color=0d1117&color=2563eb&line=2563eb&point=ffffff&hide_border=true" width="100%"/>
-
-</div>
-
+</p>
+  
+  
