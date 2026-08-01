@@ -10,7 +10,7 @@
 [![GitHub](https://img.shields.io/badge/-vgnanasekaran007--hub-0d1117?style=for-the-badge&logo=github&logoColor=2563EB&labelColor=0d1117)](https://github.com/vgnanasekaran007-hub)
 [![Location](https://img.shields.io/badge/-Kanchipuram%2C%20India-0d1117?style=for-the-badge&logo=googlemaps&logoColor=2563EB&labelColor=0d1117)](#)
 
-![Profile Views](https://komarev.com/ghpvc/?username=vgnanasekaran007-hub&color=2563eb&style=for-the-badge&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=vgnanasekaran007-hub&label=PROFILE%20VIEWS&color=2563eb&style=for-the-badge)
 
 </div>
 
