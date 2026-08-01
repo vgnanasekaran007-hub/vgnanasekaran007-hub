@@ -68,7 +68,7 @@
 
 <br/>
 
-
+## 🔥 GitHub Streak
 <p align="center">
   
   <img src="https://github-readme-streak-stats.herokuapp.com?user=gnanasekaran-v&theme=radical&fire=FF6B00&ring=FF4500&currStreakLabel=FF8C00"/>
