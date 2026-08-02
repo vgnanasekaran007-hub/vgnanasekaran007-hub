@@ -46,7 +46,7 @@
 
 <br/>
 
-## 🛠️ Tech Stack
+## 🛠️Tech Stack
 
 <div align="center">
 
@@ -74,6 +74,7 @@
     src="https://streak-stats.demolab.com?user=gnanasekaran-v&theme=radical&hide_border=true&border_radius=12&ring=FF4500&fire=FF6B00&currStreakLabel=FF8C00&sideNums=FFFFFF&currStreakNum=FFFFFF&dates=9CA3AF&sideLabels=9CA3AF&stroke=0000"
     alt="GitHub Streak"
   />
+  
 </p>
 
   
