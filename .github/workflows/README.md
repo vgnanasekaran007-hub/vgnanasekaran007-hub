@@ -79,7 +79,10 @@
 
   
 
-
+## 🔥 GitHub Streak
+<p align="center">
+  <img src="streak.svg" alt="GitHub Streak" />
+</p>
 
 
   
