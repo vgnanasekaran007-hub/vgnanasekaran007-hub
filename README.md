@@ -23,7 +23,6 @@
 - 🔐 Exploring **Cloud Security** and Infrastructure Automation
 - 💻 Passionate about **Linux**, **CI/CD**, and Open Source
 - 🎯 Goal: **Become a Professional Cloud & DevOps Engineer**
-- ⚡ Fun Fact: I enjoy automating repetitive tasks and building scalable solutions.
 
 <br/>
 
@@ -79,10 +78,7 @@
 
   
 
-## 🔥 GitHub Streak
-<p align="center">
-  <img src="streak.svg" alt="GitHub Streak" />
-</p>
+
 
 
   
