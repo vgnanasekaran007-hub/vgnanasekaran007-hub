@@ -2,7 +2,7 @@
 
 <img src="assets/portrait.svg" alt="Dot Matrix Portrait" width="260" />
 
-<br/><br/>
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=45&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=Gnanasekaran+V" alt="GNANASEKARAN V" />
 
