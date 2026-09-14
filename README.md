@@ -1,78 +1,69 @@
 <div align="center">
 
-  <!-- DOT-MATRIX PORTRAIT -->
-  <img src="assets/portrait.svg" alt="Dot Matrix Portrait" width="380" />
+<img src="assets/portrait.svg" alt="Dot Matrix Portrait" width="260" />
 
-  <br/><br/>
+<br/><br/>
 
-  <!-- MY NAME TYPING LIVE -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=58A6FF&center=true&vcenter=true&width=550&height=50&lines=Hi%2C+I'm+Gnanasekaran;Full-Stack+Developer+%26+Software+Engineer;Building+modern+web+apps+%26+scalable+systems" alt="Typing Name Animation" />
-  </a>
+<img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=45&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=Gnanasekaran+V" alt="GNANASEKARAN V" />
 
-  <!-- SHORT SUBTITLE -->
-  <p align="center">
-    🚀 Crafting high-performance web applications, modern developer tooling & elegant user interfaces.
-  </p>
+<br/>
 
-  <p align="center">
-    <a href="https://linkedin.com/in/gnanasekaran"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-    <a href="https://github.com/vgnanasekaran007-hub"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-    <a href="mailto:contact@gnanasekaran.dev"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  </p>
+[![Gmail](https://img.shields.io/badge/-v.gnanasekaran007%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=2563EB&labelColor=0d1117)](mailto:v.gnanasekaran007@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=2563EB&labelColor=0d1117)](https://linkedin.com/in/gnanasekaran-v-)
+[![GitHub](https://img.shields.io/badge/-vgnanasekaran007--hub-0d1117?style=for-the-badge&logo=github&logoColor=2563EB&labelColor=0d1117)](https://github.com/vgnanasekaran007-hub)
+[![Location](https://img.shields.io/badge/-Kanchipuram%2C%20India-0d1117?style=for-the-badge&logo=googlemaps&logoColor=2563EB&labelColor=0d1117)](#)
 
 </div>
 
----
+<br/>
 
-### ⚡ About Me
+## 🧭 About Me
 
-- 🔭 I’m currently working on **scalable web apps, microservices & interactive developer tools**
-- 🌱 I’m currently learning **advanced vector graphic algorithms, WASM, and AI-driven automation**
-- 👯 I’m looking to collaborate on **Open Source tools, UI design systems, and Web Performance**
-- 💬 Ask me about **JavaScript/TypeScript, Python, React, Next.js, and API design**
-- ⚡ Fun fact: **This README portrait was generated automatically using a custom Python dot-matrix script!**
+- 🔭 Working on **Cloud & DevOps Projects**
+- 🌱 Learning **AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions**
+- ☁️ Interested in **Cloud Computing, DevOps, and DevSecOps**
+- 🔐 Exploring **Cloud Security** and Infrastructure Automation
+- 💻 Passionate about **Linux**, **CI/CD**, and Open Source
+- 🎯 Goal: **Become a Professional Cloud & DevOps Engineer**
 
----
+<br/>
 
-### 🛠️ Tech Stack & Skills
+## 🗺️ Learning Roadmap
 
 <div align="center">
 
-#### Languages & Core
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-#### Frameworks & Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-#### Backend, Databases & DevOps
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+| Stage | Focus Area | Status |
+|:-----:|:-----------|:------:|
+| 01 | Linux Fundamentals & Shell Scripting | ✅ In Progress |
+| 02 | Networking Basics (TCP/IP, DNS, Subnetting) | ✅ In Progress |
+| 03 | Cloud Computing Concepts (IaaS / PaaS / SaaS) | ✅ Completed (NPTEL) |
+| 04 | Git & Version Control | ✅ In Progress |
+| 05 | Containers — Docker & Kubernetes | 🔜 Up Next |
+| 06 | CI/CD Pipelines | 🔜 Planned |
+| 07 | Infrastructure as Code (Terraform / Ansible) | 🔜 Planned |
+| 08 | AWS / Azure Hands-on Labs | 🔜 Planned |
 
 </div>
 
----
+<br/>
 
-### 📈 GitHub Analytics
+## 🛠️ Tech Stack
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=vgnanasekaran007-hub&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vgnanasekaran007-hub&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff" alt="Top Languages" />
+
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-0d1117?style=for-the-badge&logo=amazonaws&logoColor=2563EB)
+![Linux](https://img.shields.io/badge/Linux-0d1117?style=for-the-badge&logo=linux&logoColor=2563EB)
+![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=2563EB)
+![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=2563EB)
+![Docker](https://img.shields.io/badge/Docker-0d1117?style=for-the-badge&logo=docker&logoColor=2563EB)
+
+### Languages & Tools
+![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=2563EB)
+![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=2563EB)
+![VS Code](https://img.shields.io/badge/VS%20Code-0d1117?style=for-the-badge&logo=visualstudiocode&logoColor=2563EB)
+![Bash](https://img.shields.io/badge/Bash-0d1117?style=for-the-badge&logo=gnubash&logoColor=2563EB)
+
 </div>
 
----
-
-<div align="center">
-  <sub>Generated with custom dot-matrix generator • Made with ❤️ for GitHub Profile READMEs</sub>
-</div>
-# gnansekaran
+<br/>

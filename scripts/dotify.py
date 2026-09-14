@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-dotify.py - Convert photographs into SVG dot-matrix portraits.
+dotify.py - Convert photographs into animated SVG dot-matrix portraits.
 
 Usage:
   python scripts/dotify.py me.png -o assets/portrait --cols 100 --equalize --detail 0.5 --color
@@ -22,7 +22,7 @@ def process_image(input_path, output_path, cols=100, equalize=False, detail=0.5,
 
     rows = int(cols * aspect_ratio)
 
-    # Work on a copy for color sampling
+    # Downsample image for matrix grid sampling
     img_resized = img.resize((cols, rows), Image.Resampling.LANCZOS)
     
     # Grayscale image for luminance processing
@@ -30,48 +30,55 @@ def process_image(input_path, output_path, cols=100, equalize=False, detail=0.5,
     
     if equalize:
         gray = ImageOps.equalize(gray)
-        # Boost contrast slightly after equalization for crisp detail
         enhancer = ImageEnhance.Contrast(gray)
         gray = enhancer.enhance(1.15)
 
-    # Grid parameters
-    cell_size = 10.0  # standard cell dimension in SVG user units
-    svg_w = cols * cell_size
-    svg_h = rows * cell_size
+    # Grid dimension setup
+    cell_size = 10.0
+    padding = 8.0
+    grid_w = cols * cell_size
+    grid_h = rows * cell_size
+    svg_w = grid_w + (padding * 2.0)
+    svg_h = grid_h + (padding * 2.0)
     max_radius = (cell_size / 2.0) * 0.94
 
-    # Detail exponent tuning: lower detail -> sharper cutoff, higher detail -> softer response
-    # detail = 0.5 gives a balanced gamma (~0.85) to retain facial details without noise
     gamma = 1.5 - (detail * 0.9)
 
-    # Determine SVG output filename
     out_file = output_path
     if not out_file.lower().endswith(".svg"):
         out_file = out_file + ".svg"
     
     os.makedirs(os.path.dirname(os.path.abspath(out_file)), exist_ok=True)
 
-    svg_elements = []
-    if bg_color:
-        svg_elements.append(f'  <rect width="100%" height="100%" fill="{bg_color}" />')
+    # Keyframe animation styles matching the specified pattern
+    max_total_delay = 2.500
+    delay_step = max_total_delay / max(1, rows - 1)
+
+    css_rules = [
+        "@keyframes rv{from{opacity:0}to{opacity:1}}",
+        ".rw{animation:rv 0.45s ease-out both}"
+    ]
+    for r in range(rows):
+        d = r * delay_step
+        css_rules.append(f".r{r}{{animation-delay:{d:.3f}s}}")
+
+    style_block = f"<style>{''.join(css_rules)}</style>"
 
     pixels_gray = gray.load()
     pixels_color = img_resized.load()
 
+    row_groups = []
+    total_dots = 0
+
     for y in range(rows):
+        row_circles = []
         for x in range(cols):
-            lum = pixels_gray[x, y] / 255.0  # 0.0 to 1.0
+            lum = pixels_gray[x, y] / 255.0
             r_c, g_c, b_c, a_c = pixels_color[x, y]
 
-            # If pixel is transparent, skip
-            if a_c < 25:
+            if a_c < 25 or lum < 0.04:
                 continue
 
-            # Ignore extremely dark background noise
-            if lum < 0.04:
-                continue
-
-            # Apply gamma / detail response
             norm_lum = lum ** gamma
             radius = max_radius * norm_lum
 
@@ -82,28 +89,36 @@ def process_image(input_path, output_path, cols=100, equalize=False, detail=0.5,
             cy = (y + 0.5) * cell_size
 
             if color:
-                fill_str = f"rgb({r_c},{g_c},{b_c})"
+                fill_str = f"#{r_c:02x}{g_c:02x}{b_c:02x}"
             else:
                 fill_str = "#ffffff"
 
-            svg_elements.append(
-                f'  <circle cx="{cx:.2f}" cy="{cy:.2f}" r="{radius:.2f}" fill="{fill_str}" />'
+            row_circles.append(
+                f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{radius:.2f}" fill="{fill_str}"/>'
             )
+            total_dots += 1
 
-    svg_content = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_w:.1f} {svg_h:.1f}" width="100%" height="auto" style="max-width: 500px; display: block; margin: 0 auto;">',
-        *svg_elements,
-        '</svg>'
-    ]
+        if row_circles:
+            group_str = f'    <g class="rw r{y}">\n      ' + "".join(row_circles) + '\n    </g>'
+            row_groups.append(group_str)
+
+    bg_rect = f'  <rect width="100%" height="100%" fill="{bg_color}"/>\n' if bg_color else ""
+
+    svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_w:.1f} {svg_h:.1f}" width="{svg_w:.1f}" height="{svg_h:.1f}" role="img" aria-label="dot-matrix portrait">
+{style_block}
+{bg_rect}  <g transform="translate({padding:.1f},{padding:.1f})">
+''' + "\n".join(row_groups) + '''
+  </g>
+</svg>'''
 
     with open(out_file, "w", encoding="utf-8") as f:
-        f.write("\n".join(svg_content))
+        f.write(svg_content)
 
-    print(f"Successfully generated dot-matrix SVG portrait: {out_file}")
-    print(f"Grid size: {cols}x{rows} ({len(svg_elements)} dots rendered)")
+    print(f"Successfully generated animated dot-matrix SVG portrait: {out_file}")
+    print(f"Grid size: {cols}x{rows} ({total_dots} dots rendered)")
 
 def main():
-    parser = argparse.ArgumentParser(description="Convert an image into an SVG dot-matrix portrait.")
+    parser = argparse.ArgumentParser(description="Convert an image into an animated SVG dot-matrix portrait.")
     parser.add_argument("input", help="Path to input image (e.g., me.png)")
     parser.add_argument("-o", "--output", default="assets/portrait", help="Output path prefix or .svg file (default: assets/portrait)")
     parser.add_argument("--cols", type=int, default=100, help="Number of matrix columns (default: 100)")
