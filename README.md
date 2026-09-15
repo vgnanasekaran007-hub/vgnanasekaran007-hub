@@ -6,6 +6,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Times+New+Roman&weight=700&size=45&duration=2500&pause=100000&repeat=false&color=FFFFFF&center=true&vCenter=true&width=500&height=60&lines=Gnanasekaran+V" alt="GNANASEKARAN V" />
 
+
 <br/>
 
 [![Gmail](https://img.shields.io/badge/-v.gnanasekaran007%40gmail.com-0d1117?style=for-the-badge&logo=gmail&logoColor=2563EB&labelColor=0d1117)](mailto:v.gnanasekaran007@gmail.com)
