@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/portrait.svg" alt="Dot Matrix Portrait" width="260" />
+<img src="assets/portrait.svg" alt="Dot Matrix Portrait" width="300" />
 
 <br/>
 
